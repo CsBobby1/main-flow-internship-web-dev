@@ -1,0 +1,99 @@
+body {
+    font-family:  sans-serif;
+    background-image: url('https://s44696.pcdn.co/wp-content/uploads/2018/05/robot-AI-e1536939832107.jpg'); /* add your background image here */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navg {
+    background-color: #0c0c0c;
+    color: #f8f3f3;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #icon {
+    
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      font-size: 50px;
+    color: #f30606;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    color: #f30606;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ccc;
+  }
+  
+  .abt {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-image: url('https://s44696.pcdn.co/wp-content/uploads/2018/05/robot-AI-e1536939832107.jpg'); /* add your background image here */
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .abt h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .con {
+    margin-top: 20px;
+  }
+  
+  .con a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .con a:hover {
+    color: #666;
+  }
+  
+  .con svg {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  
+  /* add some spacing between elements */
+  .abt > * {
+    margin-bottom: 20px;
+  }
+  
+  .abt > *:last-child {
+    margin-bottom: 0;
+  }
